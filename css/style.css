@@ -66,3 +66,51 @@ img {
   justify-content: center;
   color: white;
 }
+
+#todo-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#todo-form input {
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background-color: transparent;
+  height: 50px;
+  width: 400px;
+}
+
+#todo-form input::placeholder {
+  color: white;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#todo-list li {
+  list-style: none;
+}
+
+#todo-list button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
